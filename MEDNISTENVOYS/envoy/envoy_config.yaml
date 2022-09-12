@@ -1,0 +1,11 @@
+params:
+  cuda_devices: []
+
+optional_plugin_components: {}
+
+shard_descriptor:
+  #template: medmnist_shard_descriptor.MedMNISTShardDescriptor
+  template: medmnist_shard_descriptor_with_data_splitter.MedMNISTShardDescriptor
+  params:
+    data_folder: medmnist_data
+    rank_worldsize: 1,10
