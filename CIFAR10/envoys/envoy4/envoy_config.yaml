@@ -1,0 +1,11 @@
+params:
+  cuda_devices: []
+
+optional_plugin_components: {}
+
+shard_descriptor:
+  #template: cifar10_shard_descriptor.Cifar10ShardDescriptor
+  template: cifar10_shard_descriptor_with_data_splitter.Cifar10ShardDescriptor
+  params:
+    data_folder: cifar10_data
+    rank_worldsize: 4,10
