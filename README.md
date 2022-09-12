@@ -1,4 +1,4 @@
-#Benchmarking FedAvg and FedCurv for Image Classification Tasks
+# Benchmarking FedAvg and FedCurv for Image Classification Tasks
 
 This repository contains the code for running the experiments in the paper "Benchmarking FedAvg and FedCurv for Image Classification Tasks", Casella et al., ITADATA2022.
 
